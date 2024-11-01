@@ -1,0 +1,224 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#wp-vote-wrap{
+    border: grey 1px solid;
+    padding: 1em;
+}
+#wp-vote-wrap h2{
+    width: 100%;
+    font-size: 2em;
+}
+
+#wp-vote-wrap .error, #wp-vote-wrap .success {
+    font-size: 1.4em;
+    border: red 1px solid;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+#wp-vote-wrap .success {
+    border-color: green;
+}
+
+#wp-vote-questions-wrap{
+}
+
+#wp-vote-questions ul.questions h4{
+
+}
+
+@media only screen and (min-width: 700px) {
+	#wp-vote-questions ul.questions h4{
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	#wp-vote-questions ul.questions span{
+	}
+}
+
+#wp-vote-questions ul.questions div{
+}
+#wp-vote-questions div.wp-vote-ballot-footer{
+    padding: 2em 0;
+}
+
+#wp-vote-questions div p{
+    margin-top: 0;
+}
+
+#wp-vote-questions ul {
+    margin: 0;
+}
+#wp-vote-questions .question {
+    position: relative;
+    padding: 2em 1em;
+    border-bottom: #f5f5f5 1px solid;
+
+}
+#wp-vote-questions .question:hover {
+    background: #f5f5f5;
+}
+
+#wp-vote-questions .response {
+}
+
+#wp-vote-questions .response label {
+    margin-left: 2em;
+    position: relative;
+    font-weight: normal;
+}
+
+#wp-vote-questions .response input {
+    position: absolute;
+    left: -2em;
+    top: 3px;
+}
+
+#wp-vote-questions li ul{
+	list-style: none;
+}
+
+#wp-vote-questions li ul li{
+	text-align: left;
+}
+#wp-vote-questions .wp-vote-ballot_conditions {
+    padding: 1em;
+}
+#wp-vote-questions .wp-vote-ballot_conditions:hover {
+    background-color: #f5f5f5;
+}
+
+#wp-vote-questions .wp-vote-ballot_conditions label{
+    margin-left: 2em;
+    position: relative;
+    font-weight: normal;
+}
+#wp-vote-questions .wp-vote-ballot_conditions input {
+    position: absolute;
+    left: -2em;
+    top: 3px;
+}
+
+#wp-vote-questions .wp-vote-ballot_condition_text{
+    border: grey 1px solid;
+    padding: 1em;
+    max-height: 14em;
+    overflow-y: auto;
+    margin-bottom: 1em;
+}
+
+#wp-vote-questions .wp-vote-ballot_conditions_signature {
+    padding: 1em;
+}
+#wp-vote-questions .wp-vote-ballot_conditions_signature:hover {
+    background-color: #f5f5f5;
+}
+
+#wp-vote-questions .wp-vote-ballot_conditions_signature label{
+    position: relative;
+    font-weight: normal;
+}
+#wp-vote-questions .wp-vote-ballot_conditions_signature input {
+}
+
+
+
+
+
+#wp-vote-questions button{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+    margin-bottom: 2%;
+    margin-top: 20px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    padding: 1%;
+	background: #D96D00;
+	border: 1px solid #D96D00;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#wp-vote-proxy-wrap {
+    padding: 1em;
+}
+#wp-vote-proxy-wrap:hover {
+    background-color: #f5f5f5;
+}
+
+#wp_vote_proxy-options {
+    margin: 1em 0;
+}
+
+/* .squaredFour */
+/*.squaredFour {*/
+    /*width: 20px;*/
+    /*position: relative;*/
+    /*margin: 20px auto;*/
+/*}*/
+/*.squaredFour label {*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*cursor: pointer;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background: #fcfff4;*/
+    /*background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);*/
+    /*background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);*/
+    /*border-radius: 4px;*/
+    /*box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);*/
+/*}*/
+/*.squaredFour label p{*/
+    /*display: block;*/
+    /*width: 37vw;*/
+    /*padding-left: 2em;*/
+/*}*/
+
+/*.squaredFour label:after {*/
+    /*content: '';*/
+    /*width: 9px;*/
+    /*height: 5px;*/
+    /*position: absolute;*/
+    /*top: 4px;*/
+    /*left: 4px;*/
+    /*border: 3px solid #333;*/
+    /*border-top: none;*/
+    /*border-right: none;*/
+    /*background: transparent;*/
+    /*opacity: 0;*/
+    /*-webkit-transform: rotate(-45deg);*/
+    /*transform: rotate(-45deg);*/
+/*}*/
+/*.squaredFour label:hover::after {*/
+    /*opacity: 0.5;*/
+/*}*/
+/*.squaredFour input[type=checkbox] {*/
+    /*visibility: hidden;*/
+/*}*/
+/*.squaredFour input[type=checkbox]:checked + label:after {*/
+    /*opacity: 1;*/
+/*}*/
+
+/* end .squaredFour */

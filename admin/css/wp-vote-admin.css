@@ -1,0 +1,143 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@import '../../public/css/wp-vote-public.css';
+
+.wrap .wp-vote-question-button,
+.wrap .wp-vote-question-button:active {
+    left: 200px;
+    top: -31px;
+}
+
+table.voter-status {
+    width: 100%;
+}
+
+table.voter-status th {
+    border-bottom: solid 1px #dadada;
+}
+
+table.voter-status tr:nth-child(even) {
+    background-color: #dadada;
+}
+
+table.voter-status th:nth-child(1), table.voter-status td:nth-child(1) {
+    width: 80%;
+}
+
+/*.cmb-type-XX-show-save-ballot-button {*/
+    /*max-width: 1000px;*/
+/*}*/
+
+.cmb-type-XX-show-save-ballot-button div, .cmb-type-XX-show-save-ballot-button-footer div {
+    float: right;
+}
+
+.cmb-type-custom-attached-posts .retrieved-wrap {
+    margin-right: 0 !important;
+}
+
+.cmb-type-custom-attached-posts .add-remove-all {
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.cmb-type-custom-attached-posts .add-remove-all a {
+    margin-bottom: 10px;
+}
+
+.answers_wrap {
+    /*display: none;*/
+}
+
+#test_ballot{
+	margin: 36px auto 0 auto;
+	width: 100%;
+}
+
+#wp-vote-voter_voter_type_spinner {
+    float: left;
+    margin-left: -30px;
+    margin-top: 6px;
+}
+
+.voter-status button,.voter-status .spinner{
+    float: right;
+}
+
+.wp-vote-dialog.spinner.is-active{
+    float: none;
+    background-position: 50% 50%;
+    width: 100% !important;
+}
+
+.voter-status .button-col{
+    min-width: 200px;
+}
+
+.wp-vote-dialog .questions{
+    width: 98%;
+}
+.wp-vote-dialog .questions strong{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-weight: bold;
+}
+#save-post-etc{
+    float: left;
+}
+body.post-type-wp-vote-ballot #save-action #save-post.hide-if-js{
+    display: none !important;
+}
+
+body.post-type-wp-vote-ballot .edit-post-status {
+    display: none !important;
+}
+.wp-vote-open-ballot{
+    padding: 4px;
+}
+
+.wp-vote-open-ballot-confirmation {
+    margin-bottom:10px;
+}
+
+body.post-type-wp-vote-ballot .cmb2-metabox .cmb-repeat-group-wrap{
+    width: 100%;
+    max-width: 100%;
+}
+
+body.post-type-wp-vote-ballot #wp-vote-questions ul.questions h4{
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+body.post-type-wp-vote-ballot #wp-vote-questions ul.questions span{
+	 padding-top: 0;
+ }
+
+
+#ballot_close_time select {
+	height: 21px;
+	line-height: 14px;
+	padding: 0;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+#ballot_close_time .reset-timestamp{
+	float: right;
+}
+
+#ballot-hh, #ballot-jj, #ballot-mn {
+	width: 2em;
+}
+
+#ballot-aa, #ballot-hh, #ballot-jj, #ballot-mn {
+	padding: 1px;
+	font-size: 12px;
+}
+
